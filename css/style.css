@@ -1,5 +1,11 @@
 /* Global Styles */
-body h1, h3, h4, h5, h6, p, li {
+body h1,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -73,7 +79,7 @@ header {
     padding-top: 10px;
 }
 
-#planos-menu p{
+#planos-menu p {
     font-size: 14px;
     text-align: center;
     padding: 0;
@@ -81,46 +87,124 @@ header {
 
 
 
-.hidden{
+.hidden {
     opacity: 0;
     transition: all 2s;
     transform: translateX(-100%);
 }
 
 
-.show{
+.show {
     opacity: 1;
     transform: translateX(0);
 }
 
 
 
-@media(prefers-reduced-motion){
+@media(prefers-reduced-motion) {
     .hidden {
         transition: none;
     }
 }
 
-.card-plan ol{
+
+/*Planos*/
+#sectionPlanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#sectionPlanos h1{
+    font-weight: 700;
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#sectionPlanos .title-plan p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.card-plan {
+    border: 3px solid #ffc107;
+    border-radius: 7px;
+    width: 290px;
+    height: 330px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+
+
+.col-12{
+    display: flex;
+    justify-content: center;
+}
+
+.card-plan #recomendado {
+    width: 120px;
+    border-radius: 5px;
+    position: relative;
+    top: -23px;
+    left: -18px;
+    background-color: #ffc107;
+    color: #fff;
+    font-weight: 600;
+    margin: 0px;
+
+}
+.card-plan .beneficios{
+    height: 190px;
+}
+
+
+.card-plan .valorTotal-plan{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+.valorTotal-plan p{
+    border-top: 1px solid #13161B;
+    font-size: 50px;
+}
+
+
+
+.card-plan ol {
     padding: 0;
 }
+
 .card-plan li{
     list-style: none;
     font-size: 13px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
-.card-plan h4{
+
+
+
+
+
+
+
+/*Modalidades*/
+
+
+#modalidades {
+    border: 1px solid red;
+    padding: 15px;
+}
+
+#modalidades h1 {
+    font-weight: 700;
     text-align: center;
-    margin-top: 50px;
-    padding-bottom: 10px;
-    font-weight: 600;
-    border-bottom: 1px solid #ffc107;
 }
 
-#planos #pagamento{
-    font-size: 10px;
-}
 
 
 /* Breakpoints */
@@ -202,50 +286,28 @@ header {
     }
 
     /*Section Planos*/
-    #planos{
+
+
+
+
+
+
+
+
+
+
+
+    /*Modalidades*/
+
+
+    #modalidades {
+        border: 1px solid red;
         padding: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin-top: 50px;
     }
 
-    #planos-menu h1 {
-        font-size: 1.5em;
-    }
-    
-    #planos .card{
-        border: none;
-    }
-    .card-plan{
-        border: 3px solid #ffc107;
-        border-radius: 7px;
-        height: 22em;
-        width: 18em;
-        padding: 10px 15px;
-        margin-top: 20px;
-    }
 
-    .card-plan #recomendado{
-        width: 120px;
-        border-radius: 5px;
-        position: relative;
-        top: -23px;
-        left: -18px;
-        background-color: #ffc107;
-        color: #fff;
-        font-weight: 600;
-        margin: 0px;
 
-    }
-    .card-plan h5{
-        margin-top: 0px;
-    }
-
-    .card-plan li{
-        font-size: 13px;
-    }
-
-    
 }
 
 
