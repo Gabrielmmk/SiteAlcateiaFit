@@ -24,6 +24,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+
+
 </head>
 
 <body>
@@ -40,9 +42,9 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="planos-menu" href="#planos">Planos</a>
                         <a class="nav-item nav-link" id="sobre-menu">Sobre</a>
                         <a class="nav-item nav-link" id="aulas-menu">Aulas</a>
-                        <a class="nav-item nav-link" id="planos-menu">Planos</a>
                         <a class="nav-item nav-link" id="contatos-menu">Contatos</a>
                     </div>
                 </div>
@@ -57,6 +59,91 @@
             </div>
         </div>
     </section>
+    <section id="planos-menu">
+        <h1>Os melhores planos pra você</h1>
+        <p>Aqui na Alcateia fit você encontra os melhores planos</p>
+        <div id="planos" class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-plan hidden">
+                        <p id="recomendado">Recomendado</p>
+                        <h5>Plano anual</h5>
+                        <ol>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Acesso completo às instalações da academia
+                            </li>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Flexibilidade total de horários
+                            </li>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Você economiza <span style="font-weight: 700;">R$420</span>
+                            </li>
+                        </ol>
+                        <h4>R$80<span style="font-size: 10px;">/mês</span></h4>
+                        <p id="pagamento">Pagamento anual total • R$960</p>
+                    </div>
+                    <div class="card-plan hidden">
+                        <h5>Plano Semestral</h5>
+                        <ol>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Acesso completo às instalações da academia
+                            </li>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Flexibilidade total de horários
+                            </li>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Você economiza <span style="font-weight: 700;">R$150</span>
+                            </li>
+                        </ol>
+                        <h4>R$90<span style="font-size: 10px;">/mês</span></h4>
+                        <p id="pagamento">Pagamento semestral total • R$540</p>
+                    </div>
+                    <div class="card-plan hidden">
+                        <h5>Plano Trimestral</h5>
+                        <ol>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Acesso completo às instalações da academia
+                            </li>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Flexibilidade total de horários
+                            </li>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Você economiza <span style="font-weight: 700;">R$30</span>
+                            </li>
+                        </ol>
+                        <h4>R$105<span style="font-size: 10px;">/mês</span></h4>
+                        <p id="pagamento">Pagamento trimestral total • R$315</p>
+                    </div>
+                    <div class="card-plan hidden">
+                        <h5>Plano Mensal</h5>
+                        <ol>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Acesso completo às instalações da academia
+                            </li>
+                            <li>
+                                <i class="fas fa-check" style="color: #000000;"></i>
+                                Flexibilidade total de horários
+                            </li>
+                        </ol>
+                        <h4>R$115<span style="font-size: 10px;">/mês</span></h4>
+                        <p id="pagamento">Pagamento mensal • R$115</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
 
     <!-- Inclua o jQuery primeiro -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -66,6 +153,9 @@
 
     <!-- Inclua o JavaScript do Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Script-->
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
