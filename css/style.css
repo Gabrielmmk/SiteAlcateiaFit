@@ -109,22 +109,22 @@ header {
 
 
 /*Planos*/
-#sectionPlanos{
+#sectionPlanos {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
 }
 
-#sectionPlanos h1{
+#sectionPlanos h1 {
     font-weight: 700;
     font-size: 1.7em;
     text-align: center;
     margin-top: 60px;
 }
 
-#sectionPlanos .title-plan p{
-    font-size: 13px;
+#sectionPlanos .title-plan p {
+    font-size: 15px;
     text-align: center;
 }
 
@@ -139,7 +139,7 @@ header {
 
 
 
-.col-12{
+.col-12 {
     display: flex;
     justify-content: center;
 }
@@ -156,19 +156,20 @@ header {
     margin: 0px;
 
 }
-.card-plan .beneficios{
+
+.card-plan .beneficios {
     height: 190px;
 }
 
 
-.card-plan .valorTotal-plan{
+.card-plan .valorTotal-plan {
     text-align: center;
     margin-top: 10px;
 
 }
 
 
-.valorTotal-plan p{
+.valorTotal-plan p {
     border-top: 1px solid #13161B;
     font-size: 50px;
 }
@@ -179,18 +180,18 @@ header {
     padding: 0;
 }
 
-.card-plan li{
+.card-plan li {
     list-style: none;
     font-size: 13px;
     margin-bottom: 3px;
 }
 
 
-.card-plan:hover{
+.card-plan:hover {
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.1);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.1);   
+    -ms-transform: scale(1.1);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.1);
     transition: all 250ms ease-in;
@@ -211,24 +212,90 @@ header {
     font-weight: 700;
     text-align: center;
     font-size: 1.7em;
-    
+
 }
 
-#modalidades-title p{
+#modalidades-title p {
     text-align: center;
     margin-bottom: 30px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
-#modalidades .card{
+#modalidades .card {
     border-radius: 7px;
     margin-bottom: 15px;
 }
 
-.card-img, .card-img-bottom, .card-img-top {
+.card-img,
+.card-img-bottom,
+.card-img-top {
     width: 100%;
     height: 190px;
 }
+
+/*Aulas*/
+
+#aulas-title h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+#aulas-title p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+#imgAulas {
+    margin: 30px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#imgAulas img{
+    border: 3px solid #13161B;
+    border-radius: 3px;
+
+}
+
+#aulas-title a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+/*Footer*/
+#contatos{
+    margin-top: 50px;
+    border: 1px solid yellow;
+    background-color: #13161B;
+    padding: 10px;
+}
+
+#contatos ul, li{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 8px;
+}
+
+#contatos span{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #ffc107;
+}
+
+#infoAcademia{
+    border: 1px solid red;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#mapsAcademia{
+    border: 1px solid blue; 
+}
+
+
 
 
 
@@ -322,9 +389,14 @@ header {
     }
 
 
+    /*Aulas*/
+    #imgAulas img {
+        width: 100%;
+    }
+
+
 
 }
-
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -358,6 +430,11 @@ header {
         font-size: 1.4em;
         text-align: center;
         font-weight: 700;
+    }
+
+    /*Aulas*/
+    #imgAulas img {
+        width: 100%;
     }
 
 
@@ -397,10 +474,27 @@ header {
         font-weight: 700;
     }
 
-    
-    #modalidades .card{
+
+    #modalidades .card {
         border-radius: 7px;
         margin-bottom: 35px;
+    }
+
+    /*Aulas*/
+
+    #aulas-title h1 {
+        font-weight: 700;
+        font-size: 1.7em;
+    }
+
+    #aulas-title p {
+        font-size: 15px;
+    }
+
+    #imgAulas img {
+        width: 100%;
+        border: 3px solid #13161B;
+        border-radius: 7px;
     }
 
 
@@ -441,8 +535,15 @@ header {
         font-weight: 700;
     }
 
-    #modalidades .card{
+    #modalidades .card {
         border-radius: 7px;
         margin-bottom: 55px;
     }
+
+    /*Aulas*/
+    #imgAulas img {
+        width: 70%;
+    }
+
+
 }
