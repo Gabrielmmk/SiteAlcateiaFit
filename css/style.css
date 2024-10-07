@@ -5,7 +5,7 @@ h4,
 h5,
 h6,
 p,
-li {
+li{
     font-family: "Montserrat", sans-serif;
 }
 
@@ -69,17 +69,18 @@ header {
     backdrop-filter: blur(1.2px);
 }
 
-#whatsapp{
+#whatsapp {
     margin-right: 80px;
     margin-bottom: 80px;
     text-align: end;
 }
 
-#whatsapp a{
+#whatsapp a {
     color: #25D366;
-    
+
 }
-#whatsapp a:hover{
+
+#whatsapp a:hover {
     color: #1EB954;
 }
 
@@ -266,56 +267,80 @@ header {
     justify-content: center;
 }
 
-#imgAulas img{
+#imgAulas img {
     border: 3px solid #13161B;
     border-radius: 3px;
 
 }
 
-#aulas-title a{
+#aulas-title a {
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
+#modalAulas h5{
+    font-family: "Montserrat", sans-serif;
+}
+#modalAulas button{
+    background-color: #13161B;
+    font-family: "Montserrat", sans-serif;
+}
+#modalAulas button:hover{
+    color: #ffc107;
+    font-family: "Montserrat", sans-serif;
+}
+
+#modalAulas a{
+    background-color: #13161B;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+#modalAulas a:hover{
+    color: #ffc107;
+    font-family: "Montserrat", sans-serif;
+}
+
 
 /*Footer*/
-#contatos{
+#contatos {
     margin-top: 50px;
     background-color: #13161B;
     padding: 10px;
 }
 
-#contatos ul, li{
+#contatos ul,
+li {
     list-style: none;
     padding-left: 0;
     margin-bottom: 8px;
     text-decoration: none;
 }
 
-#contatos span{
+#contatos span {
     font-size: 0.9em;
     font-weight: 600;
     color: #ffc107;
 }
 
-#infoAcademia{
+#infoAcademia {
     color: #fff;
     margin-top: 40px;
 }
-#contatos a{
+
+#contatos a {
     margin-right: 10px;
 }
 
-#contatos li a:hover{
+#contatos li a:hover {
     color: #ffc107;
 }
 
-#mapsAcademia{
+#mapsAcademia {
     margin: 40px;
 }
 
-#contatos p{
+#contatos p {
     text-align: center;
     margin-top: 50px;
     color: #fff;
@@ -323,10 +348,11 @@ header {
 }
 
 
-#icons a{
+#icons a {
     color: #fff;
 }
-#icons a:hover{
+
+#icons a:hover {
     color: red;
 }
 
@@ -376,10 +402,10 @@ header {
     }
 
 
-        /*Aulas*/
-        #imgAulas img {
-            width: 100%;
-        }
+    /*Aulas*/
+    #imgAulas img {
+        width: 100%;
+    }
 
 
 }
@@ -418,7 +444,7 @@ header {
         font-weight: 700;
     }
 
-    #whatsapp{
+    #whatsapp {
         margin-right: 30px;
         margin-bottom: 30px;
         text-align: end;
@@ -526,7 +552,7 @@ header {
         font-weight: 700;
     }
 
-    #whatsapp{
+    #whatsapp {
         margin-right: 20px;
         margin-bottom: 20px;
     }

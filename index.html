@@ -60,8 +60,7 @@
             <div id="whatsapp" class="fixed-bottom">
                 <a
                     href="https://wa.me//5511950467062/?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">
-                    <i
-                        class="fab fa-whatsapp fa-4x">
+                    <i class="fab fa-whatsapp fa-4x">
                     </i>
                 </a>
             </div>
@@ -280,9 +279,30 @@
                 <h1>Veja os dias e horários das nossas aulas</h1>
                 <p>Encontre o momento ideal para treinar e alcançar seus objetivos</p>
                 <div id="imgAulas">
-                    <img src="../imgs/TabelaAulas.png" alt="Foto dos horários da academia Alcateia Fit">
+                    <img src="../imgs/TabelaAulas.png" alt="Foto dos horários da academia Alcateia Fit"
+                        style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#aulasModal">
                 </div>
                 <a href="../imgs/TabelaAulas.png" download="">Baixar horário das aulas</a>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="aulasModal" tabindex="-1" aria-labelledby="aulasModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aulasModalLabel">Horários das Aulas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../imgs/TabelaAulas.png" class="img-fluid" alt="Tabela de Aulas">
+                    </div>
+                    <div class="modal-footer" id="modalAulas">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <a href="../imgs/TabelaAulas.png" class="btn" download="">Baixar horário das
+                            aulas</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section4>
