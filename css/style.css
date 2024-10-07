@@ -69,6 +69,20 @@ header {
     backdrop-filter: blur(1.2px);
 }
 
+#whatsapp{
+    margin-right: 80px;
+    margin-bottom: 80px;
+    text-align: end;
+}
+
+#whatsapp a{
+    color: #25D366;
+    
+}
+#whatsapp a:hover{
+    color: #1EB954;
+}
+
 
 /*Section Planos*/
 
@@ -297,7 +311,6 @@ header {
 }
 
 #mapsAcademia{
-    border: 1px solid blue; 
     margin: 40px;
 }
 
@@ -398,6 +411,13 @@ header {
         font-weight: 700;
     }
 
+    #whatsapp{
+        margin-right: 30px;
+        margin-bottom: 30px;
+        text-align: end;
+    }
+
+
     /*Section Planos*/
 
 
@@ -453,10 +473,14 @@ header {
         font-weight: 700;
     }
 
+
+
     /*Aulas*/
     #imgAulas img {
         width: 100%;
     }
+
+
 
 
 }
@@ -495,6 +519,10 @@ header {
         font-weight: 700;
     }
 
+    #whatsapp{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
 
     #modalidades .card {
         border-radius: 7px;
