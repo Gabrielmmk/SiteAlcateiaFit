@@ -268,7 +268,6 @@ header {
 /*Footer*/
 #contatos{
     margin-top: 50px;
-    border: 1px solid yellow;
     background-color: #13161B;
     padding: 10px;
 }
@@ -286,13 +285,35 @@ header {
 }
 
 #infoAcademia{
-    border: 1px solid red;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+#contatos a{
+    margin-right: 10px;
+}
+
+#contatos li a:hover{
+    color: #ffc107;
 }
 
 #mapsAcademia{
     border: 1px solid blue; 
+    margin: 40px;
+}
+
+#contatos p{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+#icons a{
+    color: #fff;
+}
+#icons a:hover{
+    color: red;
 }
 
 
