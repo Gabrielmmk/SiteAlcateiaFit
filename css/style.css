@@ -376,6 +376,12 @@ header {
     }
 
 
+        /*Aulas*/
+        #imgAulas img {
+            width: 100%;
+        }
+
+
 }
 
 /*Extra small devices (portrait phones, less than 401px)*/
