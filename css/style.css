@@ -5,7 +5,7 @@ h4,
 h5,
 h6,
 p,
-li{
+li {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -54,7 +54,6 @@ header {
     left: 0;
 }
 
-
 #capa {
     width: 100%;
     background-image: url(../imgs/img_capa.jpg);
@@ -84,7 +83,6 @@ header {
     color: #1EB954;
 }
 
-
 /*Section Planos*/
 
 #planos-menu h1 {
@@ -100,28 +98,22 @@ header {
     padding: 0;
 }
 
-
-
 .hidden {
     opacity: 0;
     transition: all 2s;
     transform: translateX(-100%);
 }
 
-
 .show {
     opacity: 1;
     transform: translateX(0);
 }
-
-
 
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
     }
 }
-
 
 /*Planos*/
 #sectionPlanos {
@@ -152,8 +144,6 @@ header {
     margin-top: 20px;
 }
 
-
-
 .col-12 {
     display: flex;
     justify-content: center;
@@ -176,20 +166,16 @@ header {
     height: 190px;
 }
 
-
 .card-plan .valorTotal-plan {
     text-align: center;
     margin-top: 10px;
 
 }
 
-
 .valorTotal-plan p {
     border-top: 1px solid #13161B;
     font-size: 50px;
 }
-
-
 
 .card-plan ol {
     padding: 0;
@@ -200,7 +186,6 @@ header {
     font-size: 13px;
     margin-bottom: 3px;
 }
-
 
 .card-plan:hover {
     -webkit-transition: all 200ms ease-in;
@@ -213,8 +198,6 @@ header {
     transform: scale(1.1);
     cursor: pointer;
 }
-
-
 
 /*Modalidades*/
 
@@ -279,28 +262,44 @@ header {
     display: flex;
 }
 
-#modalAulas h5{
+.modal {
+    position: fixed;
+    /* Para que fique fixo na tela */
+    width: 100%;
+    /* Ocupa toda a largura da tela */
+    height: 100%;
+    /* Ocupa toda a altura da tela */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fundo semi-transparente */
+    z-index: 9999;
+    /* Garante que fique acima de outros elementos */
+}
+
+
+#modalAulas h5 {
     font-family: "Montserrat", sans-serif;
 }
-#modalAulas button{
+
+#modalAulas button {
     background-color: #13161B;
     font-family: "Montserrat", sans-serif;
 }
-#modalAulas button:hover{
+
+#modalAulas button:hover {
     color: #ffc107;
     font-family: "Montserrat", sans-serif;
 }
 
-#modalAulas a{
+#modalAulas a {
     background-color: #13161B;
     color: #fff;
     font-family: "Montserrat", sans-serif;
 }
-#modalAulas a:hover{
+
+#modalAulas a:hover {
     color: #ffc107;
     font-family: "Montserrat", sans-serif;
 }
-
 
 /*Footer*/
 #contatos {
@@ -355,8 +354,6 @@ li {
 #icons a:hover {
     color: red;
 }
-
-
 
 
 
@@ -450,22 +447,20 @@ li {
         text-align: end;
     }
 
-
-    /*Section Planos*/
-
-
     /*Modalidades*/
-
-
     #modalidades {
         padding: 15px;
         margin: 50px 0px;
     }
 
-
     /*Aulas*/
     #imgAulas img {
         width: 100%;
+    }
+
+    /*Modal*/
+    .modal-content {
+        margin-top: 50%;
     }
 
 
@@ -506,11 +501,14 @@ li {
         font-weight: 700;
     }
 
-
-
     /*Aulas*/
     #imgAulas img {
         width: 100%;
+    }
+
+    /*Modal*/
+    .modal-content {
+        margin-top: 50%;
     }
 
 
@@ -578,6 +576,12 @@ li {
         border: 3px solid #13161B;
         border-radius: 7px;
     }
+
+    /*Modal*/
+    .modal-content {
+        margin-top: 50%;
+    }
+
 
 
 }
