@@ -20,5 +20,5 @@ GitHub para versionamento e colaboração de código.
 O site é destinado a pessoas interessadas em praticar atividades físicas, melhorar sua saúde e explorar os serviços oferecidos pela Alcateia Fit. Ele também serve como um ponto de contato para aqueles que desejam obter mais informações sobre a academia.
 
 ## Status do Projeto
-O projeto está atualmente em fase de desenvolvimento inicial, com futuras melhorias e funcionalidades em andamento.
+O projeto está atualmente concluído. Está hospedado na seguinte URL: (https://alcateia-fit.vercel.app/)
 
